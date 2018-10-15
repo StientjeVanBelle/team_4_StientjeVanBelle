@@ -2,7 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Mijn reizen</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">	
 	<link rel="stylesheet" href="css/stijlen.css">
 </head>
 <body>
@@ -30,6 +35,55 @@
 			</div>
 		</div>
 	</div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
 
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+           <div class="item active">
+             <img src="images/Koblenz.png" alt="Duitsland" style="width: 100%;">
+             <div class="carousel-caption">
+               <h3>Koblenz 2015</h3>
+               <p>
+                 Koblenz, Duitsland
+               </p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="images/Copenhagen.jpg" alt="Denemarken" style="width: 100%;">
+             <div class="carousel-caption">
+               <h3>Kopenhagen 2016</h3>
+               <p>
+                	Kopenhagen, Denemarken
+               </p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="images/Berlin.jpg" alt="Berlijn" style="width: 100%;" >
+             <div class="carousel-caption">
+               <h3>Berlijn 2017</h3>
+               <p>
+                 Berlijn, Duitsland
+               </p>
+             </div>
+           </div>
+         </div>
+         <!-- Left and right controls -->
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+
+         </a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+
+         </a>
+       </div>
 </body>
 </html>
